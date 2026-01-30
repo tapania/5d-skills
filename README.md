@@ -58,20 +58,45 @@ UNDERSTAND          DESIGN              BUILD               LEARN
 
 ## Installation
 
-### Option 1: Project-Level (Recommended)
+### Option 1: Plugin Marketplace (Recommended)
+
+Install directly from the Claude Code plugin marketplace:
+
+```bash
+# Step 1: Add the marketplace
+/plugin marketplace add tapania/5d-skills
+
+# Step 2: Install the plugin
+/plugin install 5d-skills@tapania-5d-skills
+```
+
+Or use the interactive plugin manager:
+
+```bash
+# Opens interactive UI to browse and install
+/plugin
+```
+
+Then navigate to the **Marketplaces** tab, add `tapania/5d-skills`, and install from the **Discover** tab.
+
+**Requirements:** Claude Code version 1.0.33 or later (`claude --version` to check)
+
+### Option 2: Project-Level
 
 Copy the `skills/` directory to your project's `.claude/` folder:
 
 ```bash
-cp -r skills/ your-project/.claude/skills/
+git clone https://github.com/tapania/5d-skills.git
+cp -r 5d-skills/skills/ your-project/.claude/skills/
 ```
 
-### Option 2: Personal (All Projects)
+### Option 3: Personal (All Projects)
 
 Copy to your personal Claude Code skills directory:
 
 ```bash
-cp -r skills/* ~/.claude/skills/
+git clone https://github.com/tapania/5d-skills.git
+cp -r 5d-skills/skills/* ~/.claude/skills/
 ```
 
 ## Usage
