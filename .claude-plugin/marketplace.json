@@ -1,14 +1,33 @@
 {
-  "name": "5D Skills Marketplace",
-  "description": "5D Spec-Driven Development skills for Claude Code",
+  "name": "5d-skills-marketplace",
+  "owner": {
+    "name": "tapania",
+    "email": ""
+  },
+  "metadata": {
+    "description": "5D Spec-Driven Development skills for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "5d-skills",
       "description": "Complete 5D Spec-Driven Development methodology - 12 skills for structured software development with understanding before commitment",
-      "source": {
-        "type": "github",
-        "repo": "tapania/5d-skills"
-      }
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/5d-sdd",
+        "./skills/5d-thinking",
+        "./skills/5d-orient",
+        "./skills/5d-spar",
+        "./skills/5d-plan",
+        "./skills/5d-refine",
+        "./skills/5d-spec",
+        "./skills/5d-gap-analysis",
+        "./skills/5d-tasks",
+        "./skills/5d-build",
+        "./skills/5d-verify",
+        "./skills/5d-reflect"
+      ]
     }
   ]
 }
