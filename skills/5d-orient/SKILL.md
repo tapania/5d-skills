@@ -1,6 +1,7 @@
 ---
 name: 5d-orient
 description: "Pre-development orientation and assumption mapping for spec-driven development. Use when: (1) Starting a new feature or project, (2) User says 'let's build X' without prior analysis, (3) Beginning any 5D-SDD workflow, (4) User wants to 'think through' an idea before planning. This phase prevents wasted effort by surfacing hidden assumptions and identifying all relevant domains before committing to a direction."
+user-invocable: true
 ---
 
 # ORIENT Phase

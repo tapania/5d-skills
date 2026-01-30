@@ -1,6 +1,7 @@
 ---
 name: 5d-tasks
 description: "Break gap analysis into sequenced, actionable tasks. Use when: (1) After GAP ANALYSIS phase in 5D-SDD workflow, (2) User is ready to start implementation, (3) Gaps are identified but not yet organized into work items, (4) User asks for 'task list,' 'breakdown,' or 'what to do first.' This phase creates the implementation roadmap."
+user-invocable: true
 ---
 
 # TASKS Phase

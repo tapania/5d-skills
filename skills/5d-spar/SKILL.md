@@ -1,6 +1,7 @@
 ---
 name: 5d-spar
 description: "Structured sparring to challenge and expand thinking before planning. Use when: (1) User has an idea but hasn't stress-tested it, (2) After ORIENT phase in 5D-SDD workflow, (3) User asks to 'think through,' 'challenge,' or 'poke holes' in an idea, (4) User seems certain too early—needs perspective expansion. This phase prevents building the wrong thing by forcing multi-perspective examination."
+user-invocable: true
 ---
 
 # SPAR Phase

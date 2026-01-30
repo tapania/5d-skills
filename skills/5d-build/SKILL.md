@@ -1,6 +1,7 @@
 ---
 name: 5d-build
 description: "Execute implementation tasks with quality and awareness. Use when: (1) After TASKS phase in 5D-SDD workflow, (2) Tasks are defined and sequenced, (3) User is ready to write code, (4) User asks to 'implement,' 'build,' or 'code' a task. This phase produces working code while maintaining connection to spec intent."
+user-invocable: true
 ---
 
 # BUILD Phase

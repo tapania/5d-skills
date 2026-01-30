@@ -1,6 +1,7 @@
 ---
 name: 5d-gap-analysis
 description: "Analyze the gap between current state and specification to identify all required changes. Use when: (1) After SPEC phase in 5D-SDD workflow, (2) Spec exists and implementation is about to begin, (3) User asks 'what needs to change' or 'what's the delta,' (4) Assessing scope of work. This phase prevents surprise discoveries during implementation."
+user-invocable: true
 ---
 
 # GAP ANALYSIS Phase

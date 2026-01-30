@@ -1,6 +1,7 @@
 ---
 name: 5d-verify
 description: "Multi-layer verification of implementation against spec and intent. Use when: (1) After BUILD phase in 5D-SDD workflow, (2) Implementation is complete and needs validation, (3) User asks to 'test,' 'verify,' or 'check' the implementation, (4) Before considering a feature done. This phase catches errors at multiple levels and routes fixes appropriately."
+user-invocable: true
 ---
 
 # VERIFY Phase

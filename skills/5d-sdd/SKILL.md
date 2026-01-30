@@ -1,6 +1,7 @@
 ---
 name: 5d-sdd
 description: "5D Spec-Driven Development - A complete methodology for building software through structured phases. Use when: (1) User wants to build something non-trivial, (2) User mentions '5D' or 'spec-driven development,' (3) Starting a new project or feature that needs careful planning, (4) User wants a structured approach to development. This skill orchestrates the full workflow across 10 phases from orientation to reflection."
+user-invocable: true
 ---
 
 # 5D Spec-Driven Development

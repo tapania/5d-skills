@@ -1,6 +1,7 @@
 ---
 name: 5d-reflect
 description: "Extract learning from completed work to improve future cycles. Use when: (1) After VERIFY phase shows feature complete, (2) End of development iteration, (3) User asks for 'retrospective,' 'lessons learned,' or 'what went well/wrong,' (4) Before starting next major feature. This phase prevents repeating mistakes and compounds learning."
+user-invocable: true
 ---
 
 # REFLECT Phase

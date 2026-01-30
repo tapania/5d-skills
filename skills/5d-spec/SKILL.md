@@ -1,6 +1,7 @@
 ---
 name: 5d-spec
 description: "Convert refined plan into technical specification with architectural decisions. Use when: (1) After REFINE phase in 5D-SDD workflow, (2) User is ready for technical design, (3) Moving from 'what' to 'how,' (4) User asks for 'technical spec,' 'architecture,' or 'design doc.' This phase bridges business intent and implementation detail."
+user-invocable: true
 ---
 
 # SPEC Phase

@@ -1,6 +1,7 @@
 ---
 name: 5d-plan
 description: "Convert expanded thinking into a concrete, multi-perspective plan. Use when: (1) After SPAR phase in 5D-SDD workflow, (2) User is ready to define what will be built, (3) User asks to 'write up the plan' or 'document what we're building,' (4) Transitioning from exploration to commitment. This phase creates the authoritative description of intent before technical specification."
+user-invocable: true
 ---
 
 # PLAN Phase

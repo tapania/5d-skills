@@ -1,6 +1,7 @@
 ---
 name: 5d-refine
 description: "Stress-test the plan through adversarial review and edge case analysis. Use when: (1) After PLAN phase in 5D-SDD workflow, (2) User wants to 'validate,' 'review,' or 'check' a plan, (3) Before committing significant resources to implementation, (4) Plan exists but hasn't been challenged. This phase catches plan-level errors before they become code-level errors."
+user-invocable: true
 ---
 
 # REFINE Phase
